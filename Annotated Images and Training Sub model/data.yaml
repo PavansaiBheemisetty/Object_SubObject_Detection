@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['door', 'helmet', 'tyre']
+
+roboflow:
+  workspace: pavan-a2epr
+  project: tyre-helmet-door-jaof4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pavan-a2epr/tyre-helmet-door-jaof4/dataset/1
